@@ -7,5 +7,17 @@
 
 <c:import url="/admin/header.jsp" />
 
+			<div class="content">
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+              <h1>게시판 부분</h1>
+           </div>
+       </div>
+    </body>
+</html>
    </body>
 </html>

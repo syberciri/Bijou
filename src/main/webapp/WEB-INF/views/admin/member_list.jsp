@@ -5,11 +5,8 @@
 <%@ page trimDirectiveWhitespaces="true" %> 
     
 
-<<<<<<< HEAD
+
 <c:import url="header.jsp" />
-=======
-<c:import url="/header.jsp" />
->>>>>>> 5c654d518bed9769252ebb93912952d775a21411
 
 			<div class="content">
               <h1>게시판 부분</h1>

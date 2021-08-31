@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
@@ -28,7 +29,7 @@
                 </ul>
             </div>
             <div class="logo">
-                <img src="/logo.png">
+                <img src="/img/logo_bijou.png">
                 <span>admin</span>
             </div>
         </div>
@@ -42,4 +43,5 @@
                     <a href="#"><li id="last_li">1:1문의</li></a>
                 </ul>
             </div>
+
    

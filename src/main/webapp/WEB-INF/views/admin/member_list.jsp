@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
@@ -5,7 +6,8 @@
 <%@ page trimDirectiveWhitespaces="true" %> 
     
 
-<c:import url="/admin/header.jsp" />
+
+<c:import url="header.jsp" />
 
 			<div class="content">
               <h1>게시판 부분</h1>
@@ -18,4 +20,5 @@
            </div>
        </div>
     </body>
+
 </html>

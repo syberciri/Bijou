@@ -5,7 +5,7 @@
 <%@ page trimDirectiveWhitespaces="true" %> 
     
 
-<c:import url="/admin/header.jsp" />
+<c:import url="/header.jsp" />
 
 			<div class="content">
               <h1>게시판 부분</h1>

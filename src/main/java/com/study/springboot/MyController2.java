@@ -11,12 +11,12 @@ public class MyController2 {
 	@RequestMapping("/")
 	public String root( RedirectAttributes redirect ) {
 		
-		return "redirect:member_list";
+		return "redirect:admin/member_list";
 	}
 	
-	@RequestMapping("memberList")
-	public String memberList( Model model ) {
+	@RequestMapping("/admin/member_list")
+	public String memberList() {
 		
-		return "memberList";
+		return "admin/member_list";
 	}
 }

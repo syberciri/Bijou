@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <div class="logo">
-                <img src="/logo.png">
+                <img src="/img/logo_bijou.png">
                 <span>admin</span>
             </div>
         </div>

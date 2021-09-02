@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
@@ -33,6 +32,7 @@
                 <span>admin</span>
             </div>
         </div>
+        <br><br><br>
         <div class="section">
             <div class="aside">
                 <ul class="side_nav">
@@ -40,8 +40,7 @@
                     <a href="#"><li>상품관리</li></a>
                     <a href="#"><li>주문목록</li></a>
                     <a href="#"><li>공지사항</li></a>
-                    <a href="#"><li id="last_li">1:1문의</li></a>
+                    <a href="one2one"><li id="last_li">1:1문의</li></a>
                 </ul>
             </div>
-
    

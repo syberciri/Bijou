@@ -27,18 +27,18 @@ public class MyController4 {
 	@Autowired
 	private IOne2oneReplyDao reply_dao;
 	
-	@RequestMapping("/")
+	@RequestMapping("/one2one")
 	public /*@ResponseBody*/ String root( RedirectAttributes redirect ) {
 		
 		redirect.addAttribute("page", "1");
 		
 		System.out.println("one2one으로 리다이렉트");
-		return "redirect:one2one"; //list URI로 리다이렉트 시킨다.
+		return "redirect:one2one_list"; //list URI로 리다이렉트 시킨다.
 	}
 
 	//호출 URL : localhost:8090/one2one
 	//실제호출될 페이지 "/WEB-INF/views/admin/one2one_list.jsp"가 호출됨.
-	@RequestMapping( value="/one2one", method=RequestMethod.GET)
+	@RequestMapping( value="/one2one_list", method=RequestMethod.GET)
 	public String one2one(HttpServletRequest request, Model model) {
 		
 		String page = request.getParameter("page");
@@ -89,7 +89,7 @@ public class MyController4 {
 		int result = reply_dao.reply(one2one_reply_idx, one2one_reply_name, one2one_reply_title, one2one_reply_content);
 	    System.out.println( "result:" + result); //성공시 insert갯수(1)로 리턴함.
 				
-		return "redirect:/";
+		return "redirect:one2one";
 	}
 
 	

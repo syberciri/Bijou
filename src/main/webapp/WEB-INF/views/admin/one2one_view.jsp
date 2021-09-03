@@ -65,7 +65,7 @@
      		</div>
         	 </form>
         	<div>
-        	<input type="button" id="to_list" name="to_list" onClick="location.href='/'" value="목록으로">
+        	<input type="button" id="to_list" name="to_list" onClick="location.href='one2one'" value="목록으로">
      	 </div>
         </div>
        

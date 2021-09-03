@@ -5,5 +5,15 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
     <mapper namespace="com.study.springboot.dao.IOrderListDao">
+		<select id="OrderList" resultType="com.study.springboot.dto.OrderListDto"> 
+			select * from order_list order by order_list_idx desc
+		</select>
 	
+		<select id="OrderListView" resultType="com.study.springboot.dto.OrderListDto">
+			select * from order_list where order_list_idx = #{param1} 
+		</select>
+		
+		<update id="updateOrderList">
+			update orer_list set order_status = #{param2} where order_list_idx = #{param1}
+		</update>
 	</mapper>

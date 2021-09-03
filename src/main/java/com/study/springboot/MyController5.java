@@ -13,4 +13,9 @@ public class MyController5 {
 		return"admin/order_list"; //"admin/order_list.jsp"페이지를 디스패치 해줌.
 	}
 	
+	@RequestMapping("updateOrderList")
+	public String updateOrderList(){
+		return"admin/updateOrderList"; //"admin/order_list.jsp"페이지를 디스패치 해줌.
+	}
+	
 }

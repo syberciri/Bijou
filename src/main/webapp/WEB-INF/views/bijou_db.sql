@@ -116,35 +116,33 @@ drop table one2one;
 create table one2one(
     one2one_idx      		number(10) primary key,
     one2one_category		varchar2(20),
-    one2one_title     		varchar2(20),
-    one2one_email     		varchar2(100),
-    one2one_phone    		varchar2(20),
-    one2one_content  		varchar2(200),
-    one2one_img		 	    varchar2(100),
+    one2one_img		 	varchar2(100),
+    one2one_name                          varchar2(20),
+    one2one_title     		varchar2(100),
+    one2one_content  		varchar2(500),
     one2one_date     		date default sysdate
 );
 drop sequence one2one_seq;
 create sequence one2one_seq;
 ​
-insert into one2one (one2one_idx, one2one_category, one2one_title, one2one_email, one2one_phone, one2one_content, one2one_img, one2one_date)
-values (one2one_seq.nextval, '배송지연/불만', '글 제목1', 'test@gmail.com', '010-1111-2222', '글 내용1', '/upload/2021710012161.png', sysdate);
+insert into one2one (one2one_idx, one2one_category, one2one_img, one2one_name, one2one_title, one2one_content, one2one_date)
+values (one2one_seq.nextval, '배송지연/불만', '/upload/2021710012161.png', '홍길동', '배송이 너무 늦습니다.', '배송이 너무 늦는것 같습니다.', sysdate);
 ​
 --1대1문의 관리자 답변
 drop table one2one_reply;
 create table one2one_reply (
-	one2one_reply_idx			 number(4) primary key,
+	one2one_reply_idx			 number(10) primary key,
 	one2one_reply_name			 varchar2(20),
 	one2one_reply_title			 varchar2(50),
 	one2one_reply_content		 varchar2(500),
-	one2one_reply_one2one_idx	 number(4),
 	one2one_reply_date			 date default sysdate
 );
 	
 drop sequence one2one_reply_seq;
 create sequence one2one_reply_seq;
 	
-insert into one2one_reply (one2one_reply_idx, one2one_reply_name, one2one_reply_title, one2one_reply_content, one2one_reply_one2one_idx, one2one_reply_date)
-values (one2one_reply_seq.nextval, '비쥬', '문의하신 내용의 답변입니다.', '문의한 내용의 답변', 1, sysdate);
+insert into one2one_reply (one2one_reply_idx, one2one_reply_name, one2one_reply_title, one2one_reply_content, one2one_reply_date)
+values (one2one_reply_seq.nextval, '비쥬', '문의하신 내용의 답변입니다.', '문의한 내용의 답변', sysdate);
 
 --주문페이지
 drop table payment;

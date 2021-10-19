@@ -6,4 +6,24 @@
     
     <mapper namespace="com.study.springboot.dao.IOrderListDao">
 	
+		<select id="OrderList" resultType="com.study.springboot.dto.OrderListDto">
+			select * from order_list order by order_date desc
+		</select>
+		
+		<select id="OrderListView" resultType="com.study.springboot.dto.OrderListDto">
+			select * from order_list where order_list_idx = #{param1}
+		</select>
+		
+		<delete id="deleteOrderList">
+			delete from order_list where order_list_idx = #{param1}
+		</delete>
+		
+		<select id="MyOrderList" resultType="com.study.springboot.dto.OrderListDto">
+			select * from order_list where order_user_id = #{param1}
+		</select>
+		
+		<select id="MyOrderInfo" resultType="com.study.springboot.dto.OrderListDto">
+			select * from order_list where order_number = #{param1}
+		</select>
+		
 	</mapper>

@@ -23,23 +23,40 @@
         <div id="header">
             <div id="top_fix">
                 <ul class="top_nav">
-                    <li><a href="#">logout</a></li>
-                    <li><a href="#">admin</a></li>
+                	<%
+                	
+	                String member_id = (String)session.getAttribute("member_id");
+	                
+	                // null 체크
+	                if( member_id != null ){ // 로그인 상태
+	                	
+		               	%>
+		                	<li><a href="logout">logout</a></li>
+		               	<%
+	                } else{ // 로그아웃 상태
+		                %>
+		                <li><a href="#">admin</a></li>
+		                <% 
+	                } 
+	                
+	                %>
+	                <!--  <li><a href="#">admin</a></li> -->
                 </ul>
             </div>
             <div class="logo">
-                <img src="/logo.png">
+                <img src="/img/main/logo_bijou.png">
                 <span>admin</span>
             </div>
         </div>
+        <br><br><br>
         <div class="section">
             <div class="aside">
                 <ul class="side_nav">
-                    <a href="#"><li>회원목록</li></a>
-                    <a href="#"><li>상품관리</li></a>
-                    <a href="#"><li>주문목록</li></a>
-                    <a href="#"><li>공지사항</li></a>
-                    <a href="#"><li id="last_li">1:1문의</li></a>
+                    <a href="member_list"><li>회원목록</li></a>
+                    <a href="items_list"><li>상품관리</li></a>
+                    <a href="order_list"><li>주문목록</li></a>
+                    <a href="notice_list"><li>공지사항</li></a>
+                    <a href="one2one"><li id="last_li">1:1문의</li></a>
                 </ul>
             </div>
    

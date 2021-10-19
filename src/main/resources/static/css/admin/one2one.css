@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+    
+*{font-family: 'Josefin Sans', sans-serif;}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	border: solid grey 2px;
+	width: 300px;
+	text-align: center;
+}
+
+.search_bar{transform: translate(390px, -29px)}
+
+
+table {
+	border: grey solid 2px;
+	width: 1000px;
+	text-align: center;
+}
+
+tr, td, th {
+	border: solid grey 2px;
+}
+
+
+
+.qa {
+  width: 100%;
+}
+.qa table {
+  width: 100%;
+  height: auto;
+  border-top: 2px solid black;
+}
+.qa tr {
+  border-bottom: 1px solid rgb(236, 236, 236);
+  height: 50px;
+}
+.qa td:nth-child(2) {
+
+  padding-left: 20px;
+}
+.qa table tr:nth-child(1) {
+  background-color: rgb(236, 236, 236);
+}
+.qa td {
+  color: #777;
+  font-size: 14px;
+}
+
+		
+		
+.page_number{display: flex; justify-content: center;}
+
+img{width: 100px; height: 100px; padding: 5px;}
+

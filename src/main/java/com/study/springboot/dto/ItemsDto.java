@@ -1,5 +1,6 @@
 package com.study.springboot.dto;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 import lombok.Data;
@@ -108,4 +109,8 @@ public class ItemsDto {
 	
 	
 	
+=======
+public class ItemsDto {
+
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 }

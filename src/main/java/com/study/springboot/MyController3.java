@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package com.study.springboot;
 
@@ -295,3 +296,10 @@ public class MyController3 {
 	
 }
 
+=======
+package com.study.springboot;
+
+public class MyController3 {
+
+}
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357

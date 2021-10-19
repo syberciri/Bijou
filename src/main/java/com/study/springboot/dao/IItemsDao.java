@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package com.study.springboot.dao;
 
@@ -37,3 +38,10 @@ public interface IItemsDao {
 
 }
 
+=======
+package com.study.springboot.dao;
+
+public interface IItemsDao {
+
+}
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357

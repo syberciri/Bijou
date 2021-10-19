@@ -3,16 +3,23 @@ package com.study.springboot;
 
 import java.util.List;
 
+<<<<<<< HEAD
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+=======
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
@@ -31,6 +38,13 @@ import com.study.springboot.dto.cartDto;
 import com.study.springboot.service.FileUploadService2;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import com.study.springboot.service.MemberService;
+=======
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import com.study.springboot.dao.IOne2oneDao;
+import com.study.springboot.dao.IOne2oneReplyDao;
+import com.study.springboot.dto.One2oneDto;
+import com.study.springboot.dto.One2oneReplyDto;
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 
 
 @Controller
@@ -42,6 +56,7 @@ public class MyController4 {
 	@Autowired
 	private IOne2oneReplyDao reply_dao;
 	
+<<<<<<< HEAD
 	@Autowired
 	private ServletContext context;
 	
@@ -66,6 +81,8 @@ public class MyController4 {
 	
 
 	
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	@RequestMapping("/one2one")
 	public /*@ResponseBody*/ String root( RedirectAttributes redirect ) {
 		
@@ -94,7 +111,10 @@ public class MyController4 {
 		
 		//model.addAttribute("list", dao.listDao());
 		model.addAttribute("list", one2one_dao.listPageDao(String.valueOf(startRowNum), String.valueOf(endRowNum)));  //최상위 10개
+<<<<<<< HEAD
 	
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 		
 		
 		System.out.println("리다이렉트 받은후 one2one_list로 model 넘김");
@@ -104,6 +124,7 @@ public class MyController4 {
 	//호출 URL : localhost:8090/one2one_view
 	//실제호출될 페이지 "/WEB-INF/views/admin/one2one_view.jsp"가 호출됨.
 	@RequestMapping(value="/one2one_view", method=RequestMethod.GET)
+<<<<<<< HEAD
 	public String one2one_view(@RequestParam("one2one_idx") String one2one_idx,		
 							   
 							   Model model) {
@@ -114,6 +135,13 @@ public class MyController4 {
 			
 		model.addAttribute("one2one_idx", one2one_idx);
 		
+=======
+	public String one2one_view(@RequestParam("one2one_idx") String one2one_idx,							  
+							   Model model) {
+		
+		model.addAttribute("dto", one2one_dao.viewDao(one2one_idx) );
+		model.addAttribute("list", reply_dao.list(one2one_idx));
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 		
 		return "admin/one2one_view";  //"admin/one2one_view.jsp" 페이지를 디스패치 해줌.
 	}
@@ -134,6 +162,7 @@ public class MyController4 {
 		int result = reply_dao.reply(one2one_reply_idx, one2one_reply_name, one2one_reply_title, one2one_reply_content);
 	    System.out.println( "result:" + result); //성공시 insert갯수(1)로 리턴함.
 				
+<<<<<<< HEAD
 	    return "redirect:one2one";
 	}
 	
@@ -717,5 +746,18 @@ public class MyController4 {
 	}
 
 	
+=======
+		return "redirect:one2one";
+	}
+
+	
+	//@RequestMapping( value="/one2one", method=RequestMethod.GET)
+	//public String one2one(Model model) {
+		
+	//	model.addAttribute("list", one2one_dao.list());
+	//	System.out.println("리다이렉트 받은후 one2one_list로 model 넘김");
+	//	return "admin/one2one_list";  //"admin/one2one_list.jsp" 페이지를 디스패치 해줌.
+	//}
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	
 }

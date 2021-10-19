@@ -1,5 +1,6 @@
 package com.study.springboot.dao;
 
+<<<<<<< HEAD
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -25,4 +26,8 @@ public interface INoticeDao {
 	public int updateNotice(String notice_idx, String notice_name, String notice_title, String notice_img, String notice_content);
 	public int noticeHit(String notice_idx);
 	
+=======
+public interface INoticeDao {
+
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 }

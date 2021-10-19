@@ -14,6 +14,7 @@ public interface IOne2oneReplyDao {
 	public int reply(String one2one_reply_idx, String one2one_reply_name, String one2one_reply_title, String one2one_reply_content);
 
 	public List<One2oneReplyDto> list(String one2one_idx);
+<<<<<<< HEAD
 	
 	public List<One2oneReplyDto> reply_list(String one2one_idx);
 	
@@ -21,5 +22,7 @@ public interface IOne2oneReplyDao {
 			String one2one_reply_title, String one2one_reply_content );
 	
 	
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 
 }

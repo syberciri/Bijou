@@ -9,7 +9,10 @@ public class One2oneDto {
 	private String one2one_category;
 	private String one2one_img;
 	private String one2one_name;
+<<<<<<< HEAD
 	private String one2one_pw;
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	private String one2one_title;
 	private String one2one_content;
 	private Date one2one_date;
@@ -19,19 +22,30 @@ public class One2oneDto {
 
 
 	public One2oneDto(int one2one_idx, String one2one_category, String one2one_img, String one2one_name,
+<<<<<<< HEAD
 			String one2one_pw, String one2one_title, String one2one_content, Date one2one_date) {
+=======
+			String one2one_title, String one2one_content, Date one2one_date) {
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 		super();
 		this.one2one_idx = one2one_idx;
 		this.one2one_category = one2one_category;
 		this.one2one_img = one2one_img;
 		this.one2one_name = one2one_name;
+<<<<<<< HEAD
 		this.one2one_pw = one2one_pw;
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 		this.one2one_title = one2one_title;
 		this.one2one_content = one2one_content;
 		this.one2one_date = one2one_date;
 	}
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	public int getOne2one_idx() {
 		return one2one_idx;
 	}
@@ -72,6 +86,7 @@ public class One2oneDto {
 	}
 
 
+<<<<<<< HEAD
 	public String getOne2one_pw() {
 		return one2one_pw;
 	}
@@ -82,6 +97,8 @@ public class One2oneDto {
 	}
 
 
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	public String getOne2one_title() {
 		return one2one_title;
 	}
@@ -110,8 +127,11 @@ public class One2oneDto {
 	public void setOne2one_date(Date one2one_date) {
 		this.one2one_date = one2one_date;
 	}
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 	
 	
 	

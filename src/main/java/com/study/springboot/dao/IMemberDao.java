@@ -1,5 +1,6 @@
 package com.study.springboot.dao;
 
+<<<<<<< HEAD
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -41,4 +42,8 @@ public interface IMemberDao {
 	public MemberDto MyInfoChangeView(String member_id);
 	
 	public int emailCheck(String member_email1, String member_email2);
+=======
+public interface IMemberDao {
+
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 }

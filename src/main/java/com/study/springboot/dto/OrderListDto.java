@@ -2,6 +2,7 @@ package com.study.springboot.dto;
 
 import java.util.Date;
 
+<<<<<<< HEAD
 public class OrderListDto {
 	
 
@@ -30,10 +31,33 @@ public class OrderListDto {
 			String order_user_phone, String order_user_address, String order_item_img, String order_item_info,
 			int order_amount, Date order_date, String order_status, String order_items_payment,
 			String order_delivery_fee, String order_request, String order_total_payment) {
+=======
+import lombok.Data;
+
+@Data
+public class OrderListDto {
+	
+	private int order_list_idx;
+	private int order_number;
+	private String order_user;
+	private String order_item_info;
+	private String order_status;
+	private Date order_date;
+
+	
+	public OrderListDto() {
+		
+	}
+
+	public OrderListDto(int order_list_idx, int order_number, String order_item_info, 
+			String order_user, Date order_date, String order_status) 
+	{
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 		super();
 		this.order_list_idx = order_list_idx;
 		this.order_number = order_number;
 		this.order_user = order_user;
+<<<<<<< HEAD
 		this.order_user_id = order_user_id;
 		this.order_user_phone = order_user_phone;
 		this.order_user_address = order_user_address;
@@ -202,4 +226,10 @@ public class OrderListDto {
 	
 	
 	
+=======
+		this.order_item_info = order_item_info;
+		this.order_date = order_date;
+		this.order_status = order_status;
+	}
+>>>>>>> db71145a7dc7060e80cd70eddca983ed27b30357
 }

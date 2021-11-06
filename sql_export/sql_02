@@ -1,0 +1,373 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 토요일-11월-06-2021   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table ITEMS
+--------------------------------------------------------
+
+  CREATE TABLE "EZEN"."ITEMS" 
+   (	"ITEM_IDX" NUMBER(10,0), 
+	"ITEM_CATEGORY" VARCHAR2(100 BYTE), 
+	"ITEM_NAME" VARCHAR2(100 BYTE), 
+	"ITEM_PRICE" VARCHAR2(10 BYTE), 
+	"ITEM_OPTION" VARCHAR2(100 BYTE), 
+	"ITEM_MAINIMG" VARCHAR2(100 BYTE), 
+	"ITEM_IMG" VARCHAR2(100 BYTE), 
+	"ITEM_CONTENT" VARCHAR2(2000 BYTE), 
+	"ITEM_DATE" DATE DEFAULT sysdate
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into EZEN.ITEMS
+SET DEFINE OFF;
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (26,'Ring','Aube Beads Ring','33500','1,Best','/upload/202191842512141.jpg','/upload/202191842512147i.jpg','Description
+다양한 반지와 반지 사이를 체인으로 연결해 주어도 되고, 체인을 손가락에 맞게 조절하여 체인 부분도 반지처럼 착용도 가능합니다. 혹은 반지와 팔찌를 이어, 역량에 따라 다양한 연출이 가능한 재미난 디자인입니다.
+
+반지 하나만으로 존재감이 확실하며 특별한 날 포인트로 착용하기 좋은 아이템입니다.
+
+비즈 반지 + 멀티 체인 세트 구성으로, 개별 판매는 안 하고 있는 점 양해 부탁드립니다.
+
+*체인은 신주 OR도금 + 크리스탈 소재로 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답 드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+비즈 반지 One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+체인 21cm (about)
+
+Color
+Pink
+
+Materials
+비즈 반지 Preciosa™ Crystal, Czech Glass Flower, Glass Crystal, Cat’s Eye, Seed Beads, Brass
+체인 Glass Crystal, Brass                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (27,'Ring','Aube Beads Ring','33500','1,None','/upload/20219184272745.jpg','/upload/20219184272750i.jpg','Description
+다양한 반지와 반지 사이를 체인으로 연결해 주어도 되고, 체인을 손가락에 맞게 조절하여 체인 부분도 반지처럼 착용도 가능합니다. 혹은 반지와 팔찌를 이어, 역량에 따라 다양한 연출이 가능한 재미난 디자인입니다.
+
+반지 하나만으로 존재감이 확실하며 특별한 날 포인트로 착용하기 좋은 아이템입니다.
+
+비즈 반지 + 멀티 체인 세트 구성으로, 개별 판매는 안 하고 있는 점 양해 부탁드립니다.
+
+*체인은 신주 OR도금 + 크리스탈 소재로 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답 드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+비즈 반지 One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+체인 21cm (about)
+
+Color
+Apricot
+
+Materials
+비즈 반지 Preciosa™ Crystal, Czech Glass Flower, Glass Crystal, Cat’s Eye, Seed Beads, Brass
+체인 Glass Crystal, Brass                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (28,'Ring','Layer Ribbon Beads Ring','27000','1,None','/upload/202191842856408.jpg','/upload/202191842856413i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 반지입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Seed Beads                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (29,'Ring','Layer Ribbon Beads Ring','27000','1,New','/upload/202191842953869.jpg','/upload/202191842953873i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 반지입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Seed Beads                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (30,'Ring','Layer Ribbon Beads Ring','27000','1,None','/upload/202191843046562.jpg','/upload/202191843046565i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 반지입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Seed Beads                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (21,'Ring','Heart Donut Beads Ring','22000','1,Best','/upload/202191841944570.jpg','/upload/202191841944575i.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (22,'Ring','Heart Donut Beads Ring','22000','1,Best','/upload/202191842156533.jpg','/upload/202191842156537i.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (23,'Ring','Heart Donut Beads Ring','22000','1,New','/upload/202191842227422.jpg','/upload/202191842227427i.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (24,'Ring','Heart Donut Beads Ring','22000','1,New','/upload/20219184232539.jpg','/upload/20219184232544i.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (25,'Ring','Heart Donut Beads Ring','22000','1,Best','/upload/202191842338951.jpg','/upload/202191842338956i.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (31,'Ring','Layer Ribbon Beads Ring','27000','1,None','/upload/202191843130831.jpg','/upload/202191843130834i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 반지입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Seed Beads                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (32,'Ring','Milky Way Beads Ring','22000','1,Best','/upload/202191843227170.jpg','/upload/202191843227172i.jpg','Description
+귀여운 꽃 모양의 스톤을 크리스탈과 함께 엮은 후, 체인을 달아 포인트를 준 유니크한 비즈 반지입니다.
+꽃 밑으로 별과 진주 장식이 달린 체인을 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+*체인은 신주 OR도금 + 크리스탈 소재로 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+움직임이 심하면 체인이 꼬일 수 있으니 최대한 조심해서 착용 부탁드립니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Sky Blue
+
+Materials
+Glass Stone, Preciosa™ Crystal, Imitation Pearl, Brass, Seed Beads
+                                            
+                                        ',to_date('21/10/18','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (33,'Necklace','White Rabbit Necklace','34000','1,New','/upload/202191910461.jpg','/upload/202191910461i.jpg','Description
+사랑스러운 하얀 토끼가 달린 목걸이입니다.
+귀여운 하얀 토끼를 정교하게 제작 후 베이비 핑크색의 리본까지 달아준 후, 진주 포인트 체인을 달아 더욱 사랑스러운 디자인의 목걸이입니다.
+
+샘플링만 약 한 달 가까이 소요된 오직 Swingset에서만 볼 수 있는 유니크한 디자인입니다.
+
+*목걸이 체인은 써지컬 스틸 + 이미테이션 진주, 연장 체인은 신주 + OR도금, 로고 참은 로듐입니다. 써지컬 스틸은 의료기기에 사용될 정도로 알러지 반응이 거의 없는 안전한 소재이지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+디자인상 토끼 펜던트는 고정되지 않은 상태이며 체인의 진주 위치가 사진과 동일하지 않을 수 밖에 없는 점 양해 부탁드립니다.
+
+
+Size
+줄 47.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+펜던트 Rabbit 4.2*4.2 cm (about) *토끼 귀에서 발, 발에서 발까지 길이입니다.
+
+Color
+White
+
+Materials
+Glass Crystal, Imitation Pearl, Surgical Steel, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (34,'Necklace','Layer Ribbon Beads Necklace','57000','1,New','/upload/202191910448684.jpg','/upload/202191910448686i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 목걸이입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주, 진주 체인으로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 하트 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 진주 체인과 함께 춤을 추듯 흩날립니다.
+
+*목걸이 진주 체인 부분은 써지컬 스틸 + 이미테이션 진주, 연장 체인은 신주 + OR도금, 로고 참은 로듐입니다. 써지컬 스틸은 의료기기에 사용될 정도로 알러지 반응이 거의 없는 안전한 소재이지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+
+
+Size
+줄 38.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Surgical Steel, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (35,'Necklace','Layer Ribbon Beads Necklace','57000','1,Best','/upload/202191910522354.jpg','/upload/202191910522355i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 목걸이입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주, 진주 체인으로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 하트 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 진주 체인과 함께 춤을 추듯 흩날립니다.
+
+*목걸이 진주 체인 부분은 써지컬 스틸 + 이미테이션 진주, 연장 체인은 신주 + OR도금, 로고 참은 로듐입니다. 써지컬 스틸은 의료기기에 사용될 정도로 알러지 반응이 거의 없는 안전한 소재이지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+
+
+Size
+줄 38.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Surgical Steel, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (36,'Necklace','Layer Ribbon Beads Necklace','57000','1,Best','/upload/202191910550794.jpg','/upload/202191910550796i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 목걸이입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주, 진주 체인으로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 하트 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 진주 체인과 함께 춤을 추듯 흩날립니다.
+
+*목걸이 진주 체인 부분은 써지컬 스틸 + 이미테이션 진주, 연장 체인은 신주 + OR도금, 로고 참은 로듐입니다. 써지컬 스틸은 의료기기에 사용될 정도로 알러지 반응이 거의 없는 안전한 소재이지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+
+
+Size
+줄 38.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Surgical Steel, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (37,'Bracelet','Layer Ribbon Beads Bracelet ','36000','1,New','/upload/202191910641106.jpg','/upload/202191910641107i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 팔찌입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+*연장 체인은 신주 + OR도금, 로고 참은 로듐 소재로, 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다. 심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+줄 21.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (38,'Bracelet','Layer Ribbon Beads Bracelet ','36000','1,Best','/upload/20219191079748.jpg','/upload/20219191079750i.jpg','Description
+사랑스러운 더블 리본으로 포인트를 준 팔찌입니다.
+화이트 컬러의 진주 위에 파스텔톤 컬러의 진주로 포인트를 준 유니크한 디자인입니다.
+리본 밑으로 ♡ 모양과 드롭 모양의 핵진주 소재 꼬리를 달아 움직임에 따라 춤을 추듯 흩날립니다.
+
+*연장 체인은 신주 + OR도금, 로고 참은 로듐 소재로, 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답드릴 수 없습니다. 심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+줄 21.5cm (about) *연장 체인 6cm가 포함된 길이입니다.
+
+Color
+Sky Blue
+
+Materials
+Imitation Acrylic Pearl, Nucleus Pearl, Brass, Rhodium                                            
+                                        ',to_date('21/10/19','RR/MM/DD'));
+Insert into EZEN.ITEMS (ITEM_IDX,ITEM_CATEGORY,ITEM_NAME,ITEM_PRICE,ITEM_OPTION,ITEM_MAINIMG,ITEM_IMG,ITEM_CONTENT,ITEM_DATE) values (41,'Bracelet','Beads Bracelet','33000','1,New','/upload/202191993235960.jpg','/upload/202191993235961i.jpg',' <상세 설명 추가해주세요>                                          
+                                        ',to_date('21/10/19','RR/MM/DD'));
+--------------------------------------------------------
+--  DDL for Index SYS_C007181
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "EZEN"."SYS_C007181" ON "EZEN"."ITEMS" ("ITEM_IDX") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table ITEMS
+--------------------------------------------------------
+
+  ALTER TABLE "EZEN"."ITEMS" ADD PRIMARY KEY ("ITEM_IDX")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;

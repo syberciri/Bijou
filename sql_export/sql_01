@@ -1,0 +1,106 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 토요일-11월-06-2021   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table CART
+--------------------------------------------------------
+
+  CREATE TABLE "EZEN"."CART" 
+   (	"CART_ITEM_IDX" NUMBER(10,0), 
+	"CART_MEMBER_ID" VARCHAR2(100 BYTE), 
+	"CART_ITEM_CATEGORY" VARCHAR2(100 BYTE), 
+	"CART_ITEM_NAME" VARCHAR2(100 BYTE), 
+	"CART_ITEM_PRICE" VARCHAR2(10 BYTE), 
+	"CART_ITEM_AMOUNT" VARCHAR2(10 BYTE), 
+	"CART_ITEM_IMG" VARCHAR2(100 BYTE), 
+	"CART_ITEM_CONTENT" VARCHAR2(2000 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into EZEN.CART
+SET DEFINE OFF;
+Insert into EZEN.CART (CART_ITEM_IDX,CART_MEMBER_ID,CART_ITEM_CATEGORY,CART_ITEM_NAME,CART_ITEM_PRICE,CART_ITEM_AMOUNT,CART_ITEM_IMG,CART_ITEM_CONTENT) values (24,'user','Ring','Aube Beads Ring','33500','1','/upload/202191842512141.jpg','Description
+다양한 반지와 반지 사이를 체인으로 연결해 주어도 되고, 체인을 손가락에 맞게 조절하여 체인 부분도 반지처럼 착용도 가능합니다. 혹은 반지와 팔찌를 이어, 역량에 따라 다양한 연출이 가능한 재미난 디자인입니다.
+
+반지 하나만으로 존재감이 확실하며 특별한 날 포인트로 착용하기 좋은 아이템입니다.
+
+비즈 반지 + 멀티 체인 세트 구성으로, 개별 판매는 안 하고 있는 점 양해 부탁드립니다.
+
+*체인은 신주 OR도금 + 크리스탈 소재로 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답 드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+비즈 반지 One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+체인 21cm (about)
+
+Color
+Pink
+
+Materials
+비즈 반지 Preciosa™ Crystal, Czech Glass Flower, Glass Crystal, Cat’s Eye, Seed Beads, Brass
+체인 Glass Crystal, Brass                                            
+                                        ');
+Insert into EZEN.CART (CART_ITEM_IDX,CART_MEMBER_ID,CART_ITEM_CATEGORY,CART_ITEM_NAME,CART_ITEM_PRICE,CART_ITEM_AMOUNT,CART_ITEM_IMG,CART_ITEM_CONTENT) values (3,'saltriver','Ring','Heart Donut Beads Ring','22000','1','/upload/20219184232539.jpg','Description
+통통한 하트 도넛 모양의 비즈 반지입니다.
+하트 1개당 크리스탈이 100개 가까이 들어가는 고급스러운 디자인입니다.
+정교하게 하나하나 엮어 손이 많이 가는 디자인으로, 다양한 스타일에 포인트 주기 좋은 아이템입니다.
+
+Size
+One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+Color
+Fuchsia Pink
+
+Materials
+Preciosa™ Crystal, Seed Beads
+이어링 바디- Brass, 침 소재 Silver 925 (White Gold Plating)                                            
+                                        ');
+Insert into EZEN.CART (CART_ITEM_IDX,CART_MEMBER_ID,CART_ITEM_CATEGORY,CART_ITEM_NAME,CART_ITEM_PRICE,CART_ITEM_AMOUNT,CART_ITEM_IMG,CART_ITEM_CONTENT) values (21,'test123','Ring','Aube Beads Ring','33500','2','/upload/202191842512141.jpg','Description
+다양한 반지와 반지 사이를 체인으로 연결해 주어도 되고, 체인을 손가락에 맞게 조절하여 체인 부분도 반지처럼 착용도 가능합니다. 혹은 반지와 팔찌를 이어, 역량에 따라 다양한 연출이 가능한 재미난 디자인입니다.
+
+반지 하나만으로 존재감이 확실하며 특별한 날 포인트로 착용하기 좋은 아이템입니다.
+
+비즈 반지 + 멀티 체인 세트 구성으로, 개별 판매는 안 하고 있는 점 양해 부탁드립니다.
+
+*체인은 신주 OR도금 + 크리스탈 소재로 기본적인 알러지 방지 처리는 되어있지만, 개인차에 따른 알러지 반응은 확답 드릴 수 없습니다.
+심한 알러지가 있으신 분들은 신중하게 고민 후 구매하시길 권장합니다.
+
+Size
+비즈 반지 One Size (약 10~14호, 반지 둘레 53~57mm *사이즈 맞춤 제작 불가)
+*사이즈는 한 가지로만 나오며, 핸드메이드 특성상 동일 디자인이라도 약간의 사이즈 차이가 있을 수 있는 점 참고 부탁드립니다.
+비즈 반지는 정교한 디자인을 위해 모두 나일론줄로 작업됩니다. 나일론줄 특성상 약간의 탄력이 있어 시간이 지나 비즈들이 자리를 잡으며 어느 정도 늘어날 수 있지만, 기본적으로는 늘어나지 않는 점 참고 부탁드립니다.
+
+체인 21cm (about)
+
+Color
+Pink
+
+Materials
+비즈 반지 Preciosa™ Crystal, Czech Glass Flower, Glass Crystal, Cat’s Eye, Seed Beads, Brass
+체인 Glass Crystal, Brass                                            
+                                        ');
+--------------------------------------------------------
+--  DDL for Index SYS_C007202
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "EZEN"."SYS_C007202" ON "EZEN"."CART" ("CART_ITEM_IDX") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table CART
+--------------------------------------------------------
+
+  ALTER TABLE "EZEN"."CART" ADD PRIMARY KEY ("CART_ITEM_IDX")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
